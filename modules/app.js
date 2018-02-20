@@ -14,7 +14,7 @@ console.log(`calculator.logBase10 (1000) = ${calculator.logBase10 (1000)}`);
 import * as calculatorUtil from "./calculator.js"; 
 console.log("\n2. ímported Module object --------------------------------");
 console.dir(calculatorUtil);
-console.log(`calculatorUtil.Tan (45) = ${calculatorUtil.tangent (45)}`);
+console.log(`calculatorUtil.tan (45) = ${calculatorUtil.tangent (45)}`);
 console.log(`calculatorUtil.default.logBase10 (1000) = ${calculatorUtil.default.logBase10 (1000)}`);
 
 
