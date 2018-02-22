@@ -6,7 +6,7 @@ export const tangent = (degree) => Math.tan( PI180 * degree); // exported specif
 
 // exporting existing variables 
 export {
-    add, // exported specifically and default object both
+    add, 
 };
 ```
 
@@ -28,6 +28,8 @@ import calculator from "./calculator.js";
 
 2. Import properties (with same or with alias name)
 ```
+// Following is example of object destructuring, reading from whole Module object
+// which otherwise get imported as given in step 3 below. Refer Object Destructuring
 import { add, tangent, default as calculatorDefault } from "./calculator.js";
 ```
 

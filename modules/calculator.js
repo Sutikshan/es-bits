@@ -7,8 +7,8 @@ export const tangent = (degree) => Math.tan( PI180 * degree); // exported specif
 
 // exporting existing variables at one place
 export {
-    add, // exported specifically and default object both
-    subtract, // exported specifically and default object both
+    add, // can be exported specifically and as part of default object both
+    subtract, // can be exported specifically and as part of default object both
 };
 
 export default {
