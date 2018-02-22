@@ -1,4 +1,9 @@
 # ES6 Modules
+Please refer the example source code to understand working of ES6-modules.
+You may want to browse to source code of `calculator` module being used in `app.js`.
+
+I used the `app.js` inside an html, as ES6 modules are still not supported in NodeJS. NodeJS supports commonJS module pattern.
+
 ## Exporting Module Object's Contents
 1. Named exports
 ```
