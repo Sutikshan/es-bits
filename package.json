@@ -1,0 +1,26 @@
+{
+  "name": "es-bits",
+  "version": "1.0.0",
+  "description": "Bits explaining Javascript ES-6, 7, x features  * Object Destructuring - Ref [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment#Object_destructuring) * ES6 Modules",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sutikshan/es-bits.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sutikshan/es-bits/issues"
+  },
+  "homepage": "https://github.com/Sutikshan/es-bits#readme",
+  "devDependencies": {
+    "eslint": "^7.0.0"
+  },
+  "dependencies": {
+    "qunit": "^2.10.0",
+    "ramda": "^0.27.0"
+  }
+}
